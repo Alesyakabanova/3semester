@@ -3,7 +3,7 @@
 import java.util.StringTokenizer;
 public class Main {
     public static void main(String[] args) {
-        StringTokenizer st = new StringTokenizer("this is test");
+        StringTokenizer st = new StringTokenizer(args[0]);
         while (st.hasMoreTokens()) {
             String token = st.nextToken();
             System.out.println(token);
